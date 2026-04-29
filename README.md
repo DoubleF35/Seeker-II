@@ -22,20 +22,20 @@ The Seeker-II flight computer is built around the ESP32-C3 Super Mini, chosen fo
    - Sampling Rate: ~7Hz (150ms loop interval)
 3. Wiring: 
 Component,Pin_Component,ESP32_C3_Pin,Function
-LoRa Module,SCK,GPIO 4,SPI Clock
-LoRa Module,MISO,GPIO 5,SPI Data Out
-LoRa Module,MOSI,GPIO 6,SPI Data In
-LoRa Module,NSS / CS,GPIO 7,Chip Select
-LoRa Module,RST,GPIO 10,Reset
-LoRa Module,DIO0,GPIO 3,Interrupt
-Sensors (BMP/MPU),SDA,GPIO 8,I2C Data
-Sensors (BMP/MPU),SCL,GPIO 9,I2C Clock
-Status LED,Anode (+),GPIO 8,Onboard LED
-BMP280,VCC,3V3,Power
-MPU6050,VCC,3V3,Power
-LoRa Module,VCC,3V3,Power
-Capacitor,Positive (+),3V3,Buffer
-Capacitor,Negative (-),GND,Buffer
-Common Rail,GND,GND,Ground
+- LoRa Module,SCK,GPIO 4,SPI Clock
+- LoRa Module,MISO,GPIO 5,SPI Data Out
+- LoRa Module,MOSI,GPIO 6,SPI Data In
+- LoRa Module,NSS / CS,GPIO 7,Chip Select
+- LoRa Module,RST,GPIO 10,Reset
+- LoRa Module,DIO0,GPIO 3,Interrupt
+- Sensors (BMP/MPU),SDA,GPIO 8,I2C Data
+- Sensors (BMP/MPU),SCL,GPIO 9,I2C Clock
+- Status LED,Anode (+),GPIO 8,Onboard LED
+- BMP280,VCC,3V3,Power
+- MPU6050,VCC,3V3,Power
+- LoRa Module,VCC,3V3,Power
+- Capacitor,Positive (+),3V3,Buffer
+- Capacitor,Negative (-),GND,Buffer
+- Common Rail,GND,GND,Ground
 4. You can find the code for the lora sender (code to upload in the esp32 c3 on the rocket) and the lora receiver (code to upload on the esp32 wired with lora functioning as a ground base)
 5. The code for the gui is listed as a python file
