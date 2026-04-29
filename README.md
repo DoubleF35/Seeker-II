@@ -39,3 +39,5 @@ Component,Pin_Component,ESP32_C3_Pin,Function
 - Common Rail,GND,GND,Ground
 4. You can find the code for the lora sender (code to upload in the esp32 c3 on the rocket) and the lora receiver (code to upload on the esp32 wired with lora functioning as a ground base)
 5. The code for the gui is listed as a python file
+<img width="826" height="633" alt="ewfki43jewifjoqi34jfwoiqj43ew" src="https://github.com/user-attachments/assets/f7c15cac-6107-43cc-a8ad-ed3e2c9ba807" />
+
