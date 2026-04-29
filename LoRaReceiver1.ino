@@ -32,7 +32,7 @@ void loop() {
     
     int rssi = LoRa.packetRssi();
 
-    // Inviamo a Python: ID,ALT,ACCX,ACCY,ACCZ,GYROX,PRESS,RSSI
+    // Invia a Python: ID,ALT,ACCX,ACCY,ACCZ,GYROX,PRESS,RSSI
     Serial.print(incoming);
     Serial.print(",");
     Serial.println(rssi); 
