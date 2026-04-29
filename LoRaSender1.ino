@@ -28,8 +28,6 @@ void setup() {
   delay(2000); 
 
   // 1. Inizializza I2C (SDA=8, SCL=9) 
-  // NOTA: Se il LED è sull'8, assicurati che i sensori non vadano in conflitto.
-  // Se i sensori sono sull'8 e 9, sposteremo il LED via software.
   Wire.begin(8, 9);
   
   // 2. Inizializza SPI e LoRa
