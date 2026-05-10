@@ -40,4 +40,5 @@ Component,Pin_Component,ESP32_C3_Pin,Function
 4. You can find the code for the lora sender (code to upload in the esp32 c3 on the rocket) and the lora receiver (code to upload on the esp32 wired with lora functioning as a ground base)
 5. The code for the gui is listed as a python file
 <img width="826" height="633" alt="ewfki43jewifjoqi34jfwoiqj43ew" src="https://github.com/user-attachments/assets/f7c15cac-6107-43cc-a8ad-ed3e2c9ba807" />
+<img width="2048" height="946" alt="WhatsApp Image 2026-05-10 at 15 28 34" src="https://github.com/user-attachments/assets/ea1a1714-5850-451c-82d2-8ca24d80df60" />
 
